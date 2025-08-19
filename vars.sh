@@ -19,16 +19,16 @@
 # Variables for the bash script
 
 # These should be changed to reflect the IPs of the RKE2 nodes. This variable will be used to create the host file if needed.
-ALL_IPS=("192.168.36.33" \
-         "192.168.36.34" \
-         "192.168.36.38" \
+ALL_IPS=("192.168.0.101" \
+         "192.168.0.102" \
+         "192.168.0.103" \
          "" \
          )
 
 # This variable contains the hostnames of the RKE2 nodes. It will be used for the majority of the deployment and configuration. Ensure the primary node is first in the list as it will be used as the   hauler server providing file server and registry services for all nodes.
-RKE2_NODES=("control-1" \
-            "control-2" \
-            "control-3" \
+RKE2_NODES=("rke2-control-1" \
+            "rke2-control-2" \
+            "rke2-control-3" \
             )
 
 # This variable could be phased out but is retained to keep the code scaleable

@@ -9,7 +9,6 @@
 # Created     : 2025-06-16
 # Last Updated: 2025-07-13
 # Version     : 1.09
-# License     : MIT
 # Notes       : Ensure all nodes have network connectivity.
 #               Requires sudo privileges.
 ###############################################################################

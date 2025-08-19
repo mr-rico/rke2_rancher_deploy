@@ -15,18 +15,6 @@
 
 source ./vars.sh
 
-# Check if the script is run as root
-if [ "$(id -u)" -ne 0 ]; then
-    echo -e "\033[1;31mThis script requires root privileges. Re-running the script with sudo...\033[0m"
-    exec sudo "$0" "$@"  # Re-run the script with sudo
-else
-# Error checking function
-check_error() {
-    if [ $? -ne 0 ]; then
-        echo -e "\033[1;31mError occurred during: $1\033[0m" >&2
-        exit 1
-    fi
-}
 
 # Generate SSH keys if they do not exist
 gen_keys() {

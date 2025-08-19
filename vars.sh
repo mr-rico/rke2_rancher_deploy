@@ -13,7 +13,6 @@
 # Created     : 2025-06-16
 # Last Updated: 2025-07-13
 # Version     : 1.08
-# License     : MIT
 # Notes       : Modify the script's behaviors by chaning the contents of this
 # 		file.
 ###############################################################################

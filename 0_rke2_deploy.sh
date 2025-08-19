@@ -13,7 +13,6 @@
 # Created     : 2025-06-16
 # Last Updated: 2025-07-23
 # Version     : 1.08
-# License     : MIT
 # Notes       : Ensure all nodes have network connectivity.
 #               Requires sudo privileges and can be customize through changing 
 #               the contents of the vars.sh file

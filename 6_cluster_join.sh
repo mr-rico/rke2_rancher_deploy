@@ -8,7 +8,6 @@
 # Author      : Rico Randall
 # Created     : 2025-06-16
 # Version     : 1.09
-# License     : MIT
 # Notes       : Ensure all nodes have network connectivity.
 #               Requires sudo privileges.
 ###############################################################################
